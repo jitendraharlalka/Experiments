@@ -1,0 +1,13 @@
+This is a very humble experiment to consolidate discussion topics related to Nepal.
+While twitter search API allows search query string to be ORed, it doesn't work with Devanagari text.
+
+This script simply fetches recent search results by searching for following search terms:
+"Nepal","Nepali","Kathmandu","Pokhara", "Chitwan","नेपाल","पोखरा","चितवन","काठमाडौं","काठमाण्डू"
+
+
+ToDos:
+- Post the status as retweets from a twitter account
+- Reduce number of api calls by ORing the Roman search queries
+- Eliminate duplicates from different calls
+
+- The queries strings are limited and are static. Look for methods to couple them with dynamic topics identified by analysing tweets from Nepal (search by geolocation).
